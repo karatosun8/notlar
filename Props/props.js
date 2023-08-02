@@ -21,11 +21,12 @@
 
 2-Data yı child komponente göndermek için bikaç yol vardır.1.yol = Birden fazla statemet kullanicaksa o zaman fonksiyonun suslu  ve return
  keywordu kullanamsi gerekir.Örnek aşağıda;
+ return ün içine aşağıdaki kodu yaz
 
-//?   {data.map((item) => {
-//?       const { id, language, img, btnName } = item
-//?        return <Card key={id} lang={language} img={img}btn={btnName} />
-//?     })}
+   {data.map((item) => {
+       const { id, language, img, btnName } = item
+        return <Card key={id} lang={language} img={img}btn={btnName} />
+     })}
       Yukarıdaki örnekte Card komponentine data daki verileri propsla gönderdik.
 
 2.yol =  //? iterasyon
