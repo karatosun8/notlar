@@ -23,10 +23,12 @@
  keywordu kullanamsi gerekir.Örnek aşağıda;
  return ün içine aşağıdaki kodu yaz
 
+    <div>
    {data.map((item) => {
        const { id, language, img, btnName } = item
         return <Card key={id} lang={language} img={img}btn={btnName} />
      })}
+     </div>
       Yukarıdaki örnekte Card komponentine data daki verileri propsla gönderdik.
 
 2.yol =  //? iterasyon
@@ -36,6 +38,15 @@
 //?        <Card key={id} lang={language} img={img} btn={btnName} />
 //?      ))}
       Yukarıda Card komponentine veriler gönderildi.
+
+      3.yol
+
+      <div className="card-container">
+      {data.map((item) => (
+        <Card key={item.id} {...item} />
+      ))}
+    </div>  ve card dan 
+    const Card = ({ title, date, image, desc }) =>  yazılarak yakalanır
 
 //! Card komponentinin yapısı aşağıdadır:
  
