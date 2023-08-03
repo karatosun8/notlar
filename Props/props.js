@@ -17,7 +17,7 @@
 
 1-App componentinden data yi import et.ve console.log(data) yazarak veririn gelip gelmediğini kontrol et.
 
-//? import data from "./data"
+//? import data from "./data" veya data {data} içinde olmalı
 
 2-Data yı child komponente göndermek için bikaç yol vardır.1.yol = Birden fazla statemet kullanicaksa o zaman fonksiyonun suslu  ve return
  keywordu kullanamsi gerekir.Örnek aşağıda;
