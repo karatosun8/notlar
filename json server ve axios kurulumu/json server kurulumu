@@ -1,0 +1,42 @@
+1-bir proje yaptığında (backend yazmadan) veriler silinmeden verileri saklamak(silme,ekleme) için database oluşturullur ve api ile veriler çekilir.Json server oluşturmak için;
+
+1- google a json server yaz
+2- json-server-npm tıkla
+3- Getting started bölümünden  " npm install -g json-server"  kopyala
+
+4- vsc da yeni powershell aç ve  npm install -g json-server yapıştır
+5- projenin içinde yeni folder aç ismi "api" olabilir
+6-içinde db.json dosyası oluştur
+7-içine aşağıdaki gibi boş obje at.
+
+{
+    "tasks":[
+
+    ]
+}
+
+oluştur.tasks oluşrulurulması istenen datanın adı
+
+8-terminale  "json-server --watch api/db.json" Entere bas (apinin içindeki db.json dosyasını çalıştırır)
+9- terminalde çıkan resources http uzantısına tıkla ve server in browser üzerinde çalıştığını gör.
+10-bu  serverden veri çekmek için get request ,veri eklemek için post request kullanılır.
+11-İstek atmak için axios gereklidir .
+12- Axios kurmak için google axios yaz ve ilk çıkan Getting Started Axios Docs tıkla
+13-yeni bir powershell aç ve oraya "npm install axios" yaz.ve axiosu kur.
+
+(projeyi istediğin bir port da çalıştırmak için "json-server --watch api/db.json --port 3004" yazabilirsin.yani bu örnek 3004 nolu portda çalışır)
+
+14- axios kullanabilmek için çalışma yapacağın componente "import axios from "axios" "yaz
+15-post yapacaksak ilgili değişkenin içine gelip
+
+const response = axios.post("url yaz örn= http:/localhost:3004/tasks",{
+    title,
+    taskDesc
+}) yaz.title ve taskDesc db.json da oluşturulacak veriler.
+16-veri çekmek için use effect kullanılır
+
+useEffect(()=>{
+    const response= axios.get("http:/localhost:3004/tasks");
+    setTasks(response.data)
+},[])
+yazılır.bu şekilde bir defa çalışır. [] olmasaydı her defasında çalışır veri çekerdi.
