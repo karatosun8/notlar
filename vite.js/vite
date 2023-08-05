@@ -1,0 +1,23 @@
+Vite.js, modern web projeleri oluşturmak için kullanılan hızlı bir geliştirme aracı ve yapılandırma sunan bir JavaScript aracıdır. İşte Vite.js'in bazı özellikleri:
+
+Hızlı ve Hafif: Vite, geliştirme süreçlerini hızlandırmak için hızlı ve hafif bir yapıya sahiptir. Kodları anında derler ve sadece ihtiyaç duyulan kod parçalarını (on-demand) yükler. Bu, geliştirme süreçlerinin hızını artırır ve daha verimli bir şekilde çalışmanıza olanak tanır.
+
+ESM (ECMAScript Module) Desteği: Vite, ESM'leri destekleyen modern tarayıcılar için optimize edilmiştir. Bu sayede, ECMAScript modüllerini kullanarak kodunuzu modüler bir şekilde organize edebilir ve farklı dosyalardan kodu içe aktarabilirsiniz.
+
+Plugin Desteği: Vite, farklı ihtiyaçlara yönelik eklentilerle kolayca genişletilebilir. Özelleştirilmiş eklentiler oluşturarak, projenizi ihtiyaçlarınıza göre şekillendirebilirsiniz.
+
+Vue.js Desteği: Vite, Vue.js için optimize edilmiştir ve Vue projelerinin hızlı bir şekilde geliştirilmesini sağlar.
+
+CSS, PostCSS, ve Sass Desteği: Vite, CSS, PostCSS ve Sass gibi stil dosyalarını doğrudan destekler, böylece stil kodlarınızı düzenlerken ek işlem adımlarına gerek kalmaz.
+
+Hot Module Replacement (HMR): Vite, uygulamanızda yapılan değişiklikleri canlı olarak görmenizi ve anında yansıtmanızı sağlayan Hot Module Replacement özelliğini destekler. Bu, hızlı ve verimli bir geliştirme deneyimi sunar.
+
+Servis İşçileri (Service Workers) Desteği: Vite, modern tarayıcıların servis işçilerini desteklemesinden faydalanır ve uygulamanızın performansını artırmak için servis işçilerini kullanmanıza olanak tanır.
+
+TypeScript Desteği: Vite, TypeScript'i destekler ve projenizi statik tip kontrolü ile geliştirmenize imkan sağlar.
+
+Build Optimizasyonu: Vite, üretim (production) için optimize edilmiş bir build işlemi sunar. Çıktı dosyalarını küçültme ve performansı artırmak için çeşitli optimizasyonlar yapar.
+
+Modüler Proje Yapısı: Vite, kodunuzu kolayca yönetebilmeniz için modüler bir proje yapısını destekler. Bu, büyük ölçekli projelerde bile düzenli ve okunabilir kod yazmanıza yardımcı olur.
+
+Bu özellikler, Vite.js'in geliştiricilere modern web projeleri oluşturmak için hızlı, verimli ve güçlü bir araç sağlamasını sağlar. Projenizde kullanmadan önce, belirli ihtiyaçlarınıza ve teknoloji yığınına uygun olup olmadığını değerlendirmeniz önemlidir.
