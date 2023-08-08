@@ -1,0 +1,28 @@
+1-proje aç
+2-cd ile proje içine gir ve proje içerisinde olduğundan emin olduğundan
+3-yeni bir powershell aç
+4-"npm install react-router-dom"yaz ve enterle.
+5-package.json dan "react-router-dom"yüklü olduğundan emin ol.
+6-index.js e git.(vite ile proje oluşturduysan main.js e git)Çünkü browserin App componentini kapsaması lazım.App komponentide main js veya index.js içinde.
+
+(Örenk çalışma olması açısından component dosyası aç ve Home ve AboutUs komponenti oluştur.)
+
+7-Main js veya index.js e gelince "import {BrowserRouter} from "react-router-dom" "import et ve App komponentini kapsat.Örn:
+
+<BrowserRouter>
+    <App />
+</BrowserRouter>
+8-App üzerinden yönlendirme yapacağımız için App komponentine gel ve   (import {Routes ,Route} from "react-router-dom") import et
+9- LocalHost 3000 yeni Ana Sayfasada  Home Componentini çalıştırmak istiyorsak aşağıdaki gibi yazarız:
+<Routes>
+    <Route path='/' element={<Home/>}>
+
+    </Route>
+   </Routes>
+10-AboutUS url inde AboutUs componentini çalıştırmak istiyorsan aşağıdaki gibi yazarız:
+<Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/aboutUs' element={<AboutUs/>}/>
+   </Routes>
+
+
