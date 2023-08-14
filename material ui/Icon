@@ -1,0 +1,7 @@
+Material Uı Icon kullanma
+
+1-material ui sitesinden Material Icons a gel
+2- npm yarn veya pnpm hangisini kullanıyorsan onu install et.Örn:
+yarn add @mui/icons-material @mui/material @emotion/styled @emotion/react
+3-Hangi Iconu kullanmak istiyorsan seç ve import et
+4-Kullanmak istediğin yere gel ve komponent olarak yaz.

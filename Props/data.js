@@ -12,11 +12,12 @@ const data = [
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/512px-CSS3_logo.svg.png?20210705212817",
     btnName: "Detail",
   },
+
   {
     id: 3,
     language: "HTML",
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png",
     btnName: "More",
   },
-]
+];
 export default data
