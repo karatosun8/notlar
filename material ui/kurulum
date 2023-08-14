@@ -1,0 +1,10 @@
+1- Proje dosyalarını oluştur
+2- mui.com/ sitesine gir
+3-Get started bölümünden Installation a gir
+4- npm yarn veya pnpm hangisini kullanacaksan onu kopyala.Örn:
+yarn add @mui/material @emotion/react @emotion/styled
+5-cd ile projenin içine gir
+6-kopyaladığın uzantıyı terminale yapıştır ve enterle ve material ui yükle
+7-npm start veya yarn start ile projeyi çalıştır.
+
+// Herhangi bir hazır component üzerinde çalışırken "Edit in StackBlitz" i aç.Onun üzerinden hazır component içerisinde değişiklik yapabilirsin.
